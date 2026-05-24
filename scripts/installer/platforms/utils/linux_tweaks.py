@@ -317,7 +317,7 @@ def apply_grub_cgroup(
 
     try:
         if platform.is_dry_run():
-            logger.info(f"Dry run: would update cgroup kernel parameters parameters in {grub_file}")
+            logger.info(f"Dry run: would update cgroup kernel parameters in {grub_file}")
             return InstallerResult.SKIPPED, "cgroup kernel parameters skipped (dry run)"
 
         if system_uses_systemd_boot():
