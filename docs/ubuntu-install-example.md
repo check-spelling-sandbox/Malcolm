@@ -53,7 +53,7 @@ Resolving deltas: 100% (33914/33914), done.
 user@host:~$ cd Malcolm/
 ```
 
-## <a name="SofwareRequirements"></a>Software requirements
+## <a name="SoftwareRequirements"></a>Software requirements
 
 The Malcolm installer requires Python 3.9 or higher and a few Python libraries. On most Linux distributions these libraries (often packaged as `python3-ruamel.yaml` and `python3-dotenv`) can be installed from official repos, using `apt` or `apt-get` (for Ubuntu and other Debian-based distributions), or `yum` or `dnf` (for Red Hat-based distributions). Alternatively, [`ruamel.yaml`](https://pypi.org/project/ruamel.yaml/) and [`dotenv`](https://pypi.org/project/dotenv/) can be [installed via `pip`](https://packaging.python.org/en/latest/tutorials/installing-packages/).
 ```
