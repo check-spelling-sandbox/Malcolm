@@ -1540,7 +1540,7 @@
                 "text": {"signal": "byte_data"},
                 "font": {"value": "Arial"},
                 "fontSize": {"value": 15},
-                "opacity": {"signal": "isArray(byte_data) ? 1 : 0" } // checks if byte_data is an array - if Array then text is an byte value and won't be [object Object] when opacity == 1
+                "opacity": {"signal": "isArray(byte_data) ? 1 : 0" } // checks if byte_data is an array - if Array then text is a byte value and won't be [object Object] when opacity == 1
               }
             }
         },

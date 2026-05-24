@@ -1855,7 +1855,7 @@ def ProcessLogLine(line, debug=False):
                     )
 
             elif 'dashboards' in serviceStr:
-                # this is an line line from dashboards, let's clean it up a bit: remove some clutter for the display
+                # this is a line line from dashboards, let's clean it up a bit: remove some clutter for the display
                 for noisyKey in ['type', 'tags', 'pid', 'method', 'prevState', 'prevMsg']:
                     outputJson.pop(noisyKey, None)
 
@@ -1863,7 +1863,7 @@ def ProcessLogLine(line, debug=False):
                 return f"{serviceStr}{Style.RESET_ALL if coloramaImported else ''} {timeStr}{json.dumps(outputJson)}"
 
             elif 'filebeat' in serviceStr:
-                # this is an line line from filebeat, let's clean it up a bit: remove some clutter for the display
+                # this is a line line from filebeat, let's clean it up a bit: remove some clutter for the display
                 for noisyKey in [
                     'ecs.version',
                     'harvester_id',
