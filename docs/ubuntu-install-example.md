@@ -163,7 +163,7 @@ Enter item number or action:
 * **Install Docker if Missing**, **Docker Installation Method**, **Try Docker Convenience Script**, and **Try Docker Repository Installation**
   - If the system does not already have Docker (or Podman, if it was selected during configuration) installed, the Malcolm installer will attempt to install it for you. The installation options include:
     + `repository` - Install Docker [using its `apt` repository](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
-    + `convenience_script` - Install Docker [using covenience script](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script)
+    + `convenience_script` - Install Docker [using convenience script](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script)
 * **Docker Users**
   - When using the Docker runtime, because Malcolm's containers' processes should run without superuser permissions, the username of the non-root user under which Malcolm will be run should be specified here to be added to the `docker` group.
   - Select **Y** to attempt to install Docker using the installation method specified above.
