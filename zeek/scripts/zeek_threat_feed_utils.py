@@ -572,7 +572,7 @@ def map_stix_indicator_to_zeek(
                     # elevate to subnet if possible
                     zeek_type = "SUBNET"
             else:
-                # ignore private IP-space ADDR avlues
+                # ignore private IP-space ADDR values
                 continue
 
         # ... "fields containing only a hyphen are considered to be null values"
@@ -678,7 +678,7 @@ def map_misp_attribute_to_zeek(
                     # elevate to subnet if possible
                     zeek_type = "SUBNET"
             else:
-                # ignore private IP-space ADDR avlues
+                # ignore private IP-space ADDR values
                 continue
 
         # ... "fields containing only a hyphen are considered to be null values"
