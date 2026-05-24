@@ -528,7 +528,7 @@ While there is no comprehensive list of possible values for [these filters](http
     <li>Driver Capabilities</li>
     <li>Dumps process memory</li>
     <li>Email capabilities</li>
-    <li>Emnumerates Local Account</li>
+    <li>Enumerates Local Account</li>
     <li>Encodes communications using Base64</li>
     <li>Encodes communications using BasE91</li>
     <li>Encodes communications using custom Base64 alphabet</li>
