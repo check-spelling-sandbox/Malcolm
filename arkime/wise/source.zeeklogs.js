@@ -1514,7 +1514,7 @@ class MalcolmSource extends WISESource {
       "zeek.hart_ip_universal_commands.read_additional_device_status_contents_standardized_status2_sub_device_mismatch",
       "zeek.hart_ip_universal_commands.read_additional_device_status_contents_standardized_status2_sub_device_with_duplicate_id",
       "zeek.hart_ip_universal_commands.read_additional_device_status_contents_standardized_status2_undefined_bits",
-      "zeek.hart_ip_universal_commands.read_additional_device_status_contents_standardized_status3_bandwith_allocation_pending",
+      "zeek.hart_ip_universal_commands.read_additional_device_status_contents_standardized_status3_bandwidth_allocation_pending",
       "zeek.hart_ip_universal_commands.read_additional_device_status_contents_standardized_status3_block_transfer_pending",
       "zeek.hart_ip_universal_commands.read_additional_device_status_contents_standardized_status3_capacity_denied",
       "zeek.hart_ip_universal_commands.read_additional_device_status_contents_standardized_status3_radio_failure",

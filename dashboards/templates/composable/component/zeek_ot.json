@@ -2064,7 +2064,7 @@
                 "read_additional_device_status_contents_standardized_status2_undefined_bits": {
                   "type": "long"
                 },
-                "read_additional_device_status_contents_standardized_status3_bandwith_allocation_pending": {
+                "read_additional_device_status_contents_standardized_status3_bandwidth_allocation_pending": {
                   "type": "keyword"
                 },
                 "read_additional_device_status_contents_standardized_status3_block_transfer_pending": {
