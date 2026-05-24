@@ -390,7 +390,7 @@ While there is no comprehensive list of possible values for [these filters](http
     <li>Capture system network information</li>
     <li>Capture TCP network connection state</li>
     <li>Capture token information</li>
-    <li>Capture Two Factor Autentication (2FA) codes</li>
+    <li>Capture Two Factor Authentication (2FA) codes</li>
     <li>Capture UDP network connection state</li>
     <li>Capture video</li>
     <li>Capture video with camera</li>
