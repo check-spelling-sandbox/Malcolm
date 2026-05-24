@@ -1053,7 +1053,7 @@ def StartMalcolm(
                                             ]['securityContext'].pop('capabilities', None)
                                             modified = True
 
-                                        # for resource requests we're only concerned about containters we've defined by name in CONTAINER_JAVA_OPTS_VARS
+                                        # for resource requests we're only concerned about containers we've defined by name in CONTAINER_JAVA_OPTS_VARS
                                         #   or that have been specified in kubernetes-container-resources.yml when injectResources is True
                                         if (containerName in CONTAINER_JAVA_OPTS_VARS) or (
                                             containerName in containerResources
