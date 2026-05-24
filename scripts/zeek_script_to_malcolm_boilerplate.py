@@ -7,7 +7,7 @@
 # This script takes as input the filenames of one or more .zeek scripts which
 # contain records (see https://docs.zeek.org/en/master/script-reference/types.html#type-record).
 #
-# The scripts are parsed into their constitutent records and &log fields.
+# The scripts are parsed into their constituent records and &log fields.
 #
 # Each record is then printed out in the formats used by Malcolm for parsing and defining Zeek logs:
 # - Logstash (https://idaholab.github.io/Malcolm/docs/contributing-logstash.html#LogstashZeek), for ./logstash/pipelines/zeek/1001_zeek_parse.conf
