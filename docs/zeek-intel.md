@@ -839,7 +839,7 @@ While there is no comprehensive list of possible values for [these filters](http
     <li>Tampers with Windows safe mode</li>
     <li>TCP Scan</li>
     <li>Terminates processes</li>
-    <li>Timestomping capabilities</li>
+    <li>Timestamping capabilities</li>
     <li>Tries to lock mutex</li>
     <li>Tunnels network traffic</li>
     <li>Unlocks mutex</li>
