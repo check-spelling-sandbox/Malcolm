@@ -2213,7 +2213,7 @@ class MalcolmSource extends WISESource {
       "zeek.opcua_binary_activate_session.client_signature",
       "zeek.opcua_binary_activate_session.ext_obj_certificate_data",
       "zeek.opcua_binary_activate_session.ext_obj_encoding",
-      "zeek.opcua_binary_activate_session.ext_obj_encryption_algorithom",
+      "zeek.opcua_binary_activate_session.ext_obj_encryption_algorithm",
       "zeek.opcua_binary_activate_session.ext_obj_password",
       "zeek.opcua_binary_activate_session.ext_obj_policy_id",
       "zeek.opcua_binary_activate_session.ext_obj_token_data",

@@ -3829,7 +3829,7 @@
                 "ext_obj_encoding": {
                   "type": "keyword"
                 },
-                "ext_obj_encryption_algorithom": {
+                "ext_obj_encryption_algorithm": {
                   "type": "keyword"
                 },
                 "ext_obj_password": {
