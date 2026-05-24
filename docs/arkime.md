@@ -188,7 +188,7 @@ See Arkime's usage documentation for more information on [settings](https://loca
 
 ## <a name="ArkimeWISE"></a>WISE
 
-Arkime's WISE plugin leverages data feeds to enhance Arkime's logs. WISE is the successor to depricated tagger plugin. 
+Arkime's WISE plugin leverages data feeds to enhance Arkime's logs. WISE is the successor to deprecated tagger plugin. 
 
 See Arkime's documentation for additional information on leveraging the [WISE plugin](https://arkime.com/wise).
 
