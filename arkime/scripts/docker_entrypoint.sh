@@ -262,7 +262,7 @@ fi
 
 
 # An example wise.ini file is baked into the container image by the Dockerfile as $ARKIME_DIR/etc/wise.ini.example
-# After the container is booted we copy wise.ini.example from $ARMIKE_DIR/etc/ to $ARKIME_DIR/wiseini/
+# After the container is booted we copy wise.ini.example from $ARKIME_DIR/etc/ to $ARKIME_DIR/wiseini/
 # if $ARKIME_DIR/wiseini/wise.ini does not already exist.
 # $ARKIME_DIR/wiseini/wise.ini will either be a R/W mounted file, when run under Docker Compose or
 # $ARKIME_DIR/wiseini/ will be a persistent volume when run under Kubernetes.

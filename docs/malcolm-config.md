@@ -21,7 +21,7 @@ Although the configuration script automates many of the following configuration 
         + `INDEX_MANAGEMENT_RETENTION_TIME` - the period in hours or days that Arkime will keep records before deleting them (default `90d`)
         + `INDEX_MANAGEMENT_OLDER_SESSION_REPLICAS` - the number of replicas for older sessions indices (default `0`)
         + `INDEX_MANAGEMENT_HISTORY_RETENTION_WEEKS` - the retention time period (weeks) for Arkime history data (default `13`)
-        + `INDEX_MANAGEMENT_SEGMENTS` - the number of segments Arlime will use to optimize sessions (default `1`)
+        + `INDEX_MANAGEMENT_SEGMENTS` - the number of segments Arkime will use to optimize sessions (default `1`)
         + `INDEX_MANAGEMENT_HOT_WARM_ENABLED` - whether or not Arkime should use a hot/warm design (storing non-session data in a warm index); setting up hot/warm index policies also requires configuration on the local nodes in accordance with the [Arkime documentation](https://arkime.com/faq#ilm)
     - The following variables configure exposing [Arkime's WISE Plugin](https://arkime.com/wise). By default, Malcolm leverages the WISE plugin internally but does not expose the functionality to the end user:
         + `ARKIME_EXPOSE_WISE_GUI` - if set to `true` the WISE interface will be available at: `https://<MALCOLM-IP>/wise`. This defaults to `true`.
