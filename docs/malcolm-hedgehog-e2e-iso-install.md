@@ -690,7 +690,7 @@ After a few seconds a progress bar will update and show the files have been 100%
 
 ![SSL Certificate Transfer, Hedgehog Side - 03](./images/screenshots/ssl-cert-transfer-07.png)
 
-Once the has been completed, users can click the "play" icon (▷) in the panel at the top of the [desktop](#MalcolmDesktop) to start Malcolm under the [Hedgehog run profile](live-analysis.md#Profiles).
+Once completed, users can click the "play" icon (▷) in the panel at the top of the [desktop](#MalcolmDesktop) to start Malcolm under the [Hedgehog run profile](live-analysis.md#Profiles).
 
 ### <a name="HedgehogMalcolmPorts"></a> TCP Ports Required for Malcolm ↔ Hedgehog Communication
 
