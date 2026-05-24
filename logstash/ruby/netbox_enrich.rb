@@ -259,7 +259,7 @@ def register(
   @add_tag = nil if @add_tag.respond_to?(:empty?) && @add_tag.empty?
 
   # verbose - either specified directly or read from ENV via verbose_env
-  #   false - store the "name" (fallback to "display") and "id" value(s) as @target.name and @target.id
+  #   false - store the "name" (fall back to "display") and "id" value(s) as @target.name and @target.id
   #             e.g., (@target is destination.segment) destination.segment.name => ["foobar"]
   #                                                    destination.segment.id => [123]
   #   true - store a hash of arrays *under* @target
@@ -543,7 +543,7 @@ def autopopulate_allowed?(ip_input, site_id, config_site_hash)
 
   return false unless ip.private?
 
-  # Determine applicable config: site-specific first, fallback to '*', else allow
+  # Determine applicable config: site-specific first, fall back to '*', else allow
   config = config_site_hash[site_id]
   if config.nil? && (site_id.is_a?(Integer) || site_id.to_s.match?(/\A[+-]?\d+\z/)) && (site_id.to_i > 0)
     # the site is being looked up by ID, not name, but there's no matching site ID in the config_site_hash,
