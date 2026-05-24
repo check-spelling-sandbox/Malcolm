@@ -77,7 +77,7 @@ auth_ldap_cache_size 1000;
 
 This file is mounted into the `nginx` container when Malcolm is started to provide connection information for the LDAP server.
 
-The contents of `nginx_ldap.conf` will vary depending on how the LDAP server is configured. Some of the [avaiable parameters](https://github.com/kvspb/nginx-auth-ldap#available-config-parameters) in that file include:
+The contents of `nginx_ldap.conf` will vary depending on how the LDAP server is configured. Some of the [available parameters](https://github.com/kvspb/nginx-auth-ldap#available-config-parameters) in that file include:
 
 * **`url`** - the `ldap://` or `ldaps://` connection URL for the remote LDAP server, which has the [following syntax](https://www.ietf.org/rfc/rfc2255.txt): `ldap[s]://<hostname>:<port>/<base_dn>?<attributes>?<scope>?<filter>`
 * **`binddn`** and **`binddn_password`** - the account credentials used to query the LDAP directory
