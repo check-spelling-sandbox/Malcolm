@@ -142,7 +142,7 @@ The Modbus Trends graph plots the __write_single_coil__, __write_single_register
 
 |     |     |
 | --- | --- |
-| ![Modbus Node hover enrichment](./images/screenshots/analytics-modbus-node-hover.png) | Modbus-specific enrichment is available when you hover over the node. <br><ul><li>Dataset denotes which log the data is pulled from </li><li>The IP address/port of the communications </li><li>Unit Id associated with the communication </li><li>Which PLC address is being observed</li><li> The Modbus function </li><li>The value being communicated </li><li> Date/Time of communication</li><li>The Malcolm Event ID tied to this communication</li></ul>  |
+| ![Modbus Node hover enrichment](./images/screenshots/analytics-modbus-node-hover.png) | Modbus-specific enrichment is available when you hover over the node. <br><ul><li>Dataset denotes which log the data is pulled from </li><li>The IP address/port of the communications </li><li>Unit ID associated with the communication </li><li>Which PLC address is being observed</li><li> The Modbus function </li><li>The value being communicated </li><li> Date/Time of communication</li><li>The Malcolm Event ID tied to this communication</li></ul>  |
 | ![Modbus Unit Selection](./images/screenshots/analytics-modbus-unit-select.png) | If there is more than one modbus Unit ID available for the selected IP address, the Unit Selection box will appear below the IP Selection. |
 | ![Modbus Node shapes](./images/screenshots/analytics-vega-shapes2.png) | Node shapes help differentiate between different Modbus functions at a glance. <br><Sul><li> Square - Single Register Write </li><li> Circle - Single Coil Write </li><li> Diamond - Multi-Register Write </li><li> Triangle - Multi-Coil Write </li>|
 
