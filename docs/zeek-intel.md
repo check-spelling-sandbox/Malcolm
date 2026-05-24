@@ -519,7 +519,7 @@ While there is no comprehensive list of possible values for [these filters](http
     <li>Deletes Windows registry keys</li>
     <li>Deletes Windows registry keys or values</li>
     <li>Deletes Windows registry values</li>
-    <li>Deltes Widnows Backup Catalog</li>
+    <li>Deletes Widnows Backup Catalog</li>
     <li>Denial of Service</li>
     <li>Determines public IP address of host</li>
     <li>Directory manipulation</li>
