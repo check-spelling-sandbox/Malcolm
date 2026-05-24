@@ -106,7 +106,7 @@ Although the configuration script automates many of the following configuration 
     - `NETBOX_AUTO_CREATE_PREFIX` - if set to `true`, Logstash will automatically create private subnet prefixes in the [NetBox inventory](asset-interaction-analysis.md#NetBoxPopPassive) based on observed network traffic
     - `NETBOX_DEFAULT_AUTOCREATE_MANUFACTURER` - if set to `true`, new manufacturer entries will be created in the NetBox database when [matching device manufacturers to OUIs](asset-interaction-analysis.md#NetBoxPopPassiveOUIMatch) (default `true`)
     - `NETBOX_DEFAULT_FUZZY_THRESHOLD` - fuzzy-matching threshold for [matching device manufacturers to OUIs](asset-interaction-analysis.md#NetBoxPopPassiveOUIMatch) (default `0.95`)
-    - The following variables should only be set if `NETBOX_MODE` is set to `remote`, otherwise they should be blank:
+    - The following variables should only be set if `NETBOX_MODE` is set to `remote`; otherwise, they should be blank:
         + `NETBOX_URL` - the URL of the remote NetBox instance (e.g., `https://netbox.example.org` or `https://example.com/netbox`)
         + `NETBOX_TOKEN` - the [API token](https://netboxlabs.com/docs/netbox/en/stable/integrations/rest-api/#tokens) for the remote NetBox instance (40 hexadecimal characters)
 * **`nginx.env`** - settings specific to Malcolm's nginx reverse proxy
@@ -120,7 +120,7 @@ Although the configuration script automates many of the following configuration 
 * **`opensearch.env`** - settings specific to [OpenSearch](https://opensearch.org/)
     - `OPENSEARCH_JAVA_OPTS` - one of OpenSearch's most [important settings](https://opensearch.org/docs/latest/install-and-configure/install-opensearch/index/#important-settings), the `-Xmx` and `-Xms` values set the size of OpenSearch's Java heap (we recommend setting this value to half of system RAM, up to 32 gigabytes)
     - `OPENSEARCH_PRIMARY` - one of `opensearch-local`, `opensearch-remote`, or `elasticsearch-remote`, to determine the [OpenSearch or Elasticsearch instance](opensearch-instances.md#OpenSearchInstance) Malcolm will use  (default `opensearch-local`)
-    - `OPENSEARCH_URL` - when using Malcolm's internal OpenSearch instance (i.e., `OPENSEARCH_PRIMARY` is `opensearch-local`) this should be `https://opensearch:9200`, otherwise this value specifies the primary remote instance URL in the format `protocol://host:port` (default `https://opensearch:9200`)
+    - `OPENSEARCH_URL` - when using Malcolm's internal OpenSearch instance (i.e., `OPENSEARCH_PRIMARY` is `opensearch-local`) this should be `https://opensearch:9200`; otherwise, this value specifies the primary remote instance URL in the format `protocol://host:port` (default `https://opensearch:9200`)
     - `OPENSEARCH_SSL_CERTIFICATE_VERIFICATION` - if set to `true`, connections to the primary remote OpenSearch instance will require full TLS certificate validation (this may fail if using self-signed certificates) (default `false`)
     - `OPENSEARCH_SECONDARY` - one of `opensearch-local`, `opensearch-remote`, `elasticsearch-remote`, or blank (unset) to indicate that Malcolm should forward logs to a secondary remote OpenSearch instance in addition to the primary OpenSearch instance (default is unset)
     - `OPENSEARCH_SECONDARY_URL` - when forwarding to a secondary remote OpenSearch instance (i.e., `OPENSEARCH_SECONDARY` is set) this value specifies the secondary remote instance URL in the format `protocol://host:port`

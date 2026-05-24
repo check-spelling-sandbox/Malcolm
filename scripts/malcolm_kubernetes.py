@@ -948,7 +948,7 @@ def StartMalcolm(
                             containerBelongsInProfile = False
                             break
 
-            # apply the manifests in this YAML file, otherwise skip it
+            # apply the manifests in this YAML file; otherwise, skip it
             if containerBelongsInProfile:
 
                 # Some manifests need to have some modifications done to them on-the-fly:
@@ -1199,7 +1199,7 @@ def StartMalcolm(
                                         ) or str(e)
 
                             if manYamlFileContents:
-                                # load from the temporary file if we made modifications, otherwise load from the original
+                                # load from the temporary file if we made modifications; otherwise, load from the original
                                 results_dict['create_from_yaml']['result'][os.path.basename(yamlName)] = (
                                     kubeImported.utils.create_from_yaml(
                                         apiClient,

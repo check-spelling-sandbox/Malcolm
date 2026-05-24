@@ -629,7 +629,7 @@ def keystore_op(service, dropPriv=False, *keystore_args, **run_process_kwargs):
 
                 dockerCmd = None
 
-                # determine if Malcolm is running; if so, we'll use docker-compose exec, other wise we'll use docker run
+                # determine if Malcolm is running; if so, we'll use docker-compose exec; otherwise, we'll use docker run
                 err, out = run_process(
                     [dockerComposeBin, '--profile', args.composeProfile, '-f', args.composeFile, 'ps', '-q', service],
                     env=osEnv,
