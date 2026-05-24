@@ -167,7 +167,7 @@ No known issues at this time. If you encounter a bug, please submit a bug report
 ### <a name="ConnTreeDash"></a>IP Connections Tree Dashboard
 ![Example IP Connections Tree Screenshot](./images/screenshots/analytics-conn-tree-dashboard.png)
 
-The IP Connections Tree dashboard's purpose is to help identify potential avenues for lateral movement within a network, it allowsd you to visually focus in on Cyber Key Terrain (CKTs) and IP addresses that the user-defined root node communicates with.
+The IP Connections Tree dashboard's purpose is to help identify potential avenues for lateral movement within a network, it allowed you to visually focus in on Cyber Key Terrain (CKTs) and IP addresses that the user-defined root node communicates with.
 
 The root node exhibits different behaviors in the two visuals. On the left, the root node is only ever the source of communications. On the right, the root node is only ever a destination for communications.
 
