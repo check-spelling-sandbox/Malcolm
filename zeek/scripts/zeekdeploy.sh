@@ -333,7 +333,7 @@ EOF
       # user explicitly specified worker CPUs to pin
       echo "pin_cpus=${!WORKER_CPU_PINS_VAR}" >> ./node.cfg
     elif [[ "$ZEEK_PIN_CPUS_WORKER_AUTO" == "true" ]]; then
-      # user asked us to autmatically PIN worker CPUs
+      # user asked us to automatically PIN worker CPUs
       echo -n "pin_cpus=" >> ./node.cfg
       for (( PIN=1; PIN <= WORKER_LB_PROCS; PIN++)); do
           echo -n "${CURRENT_CPU_ID}" >> ./node.cfg
