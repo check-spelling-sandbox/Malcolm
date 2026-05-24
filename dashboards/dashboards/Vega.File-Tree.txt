@@ -1327,7 +1327,7 @@
               "enter": {
                 // "align": {"value": "left"},
                 "baseline": {"value": "top"},
-                "fill": {"value": "#159d8d"} // JCR, changd to match Malcolm color scheme
+                "fill": {"value": "#159d8d"} // JCR, changed to match Malcolm color scheme
               },
               "update": {
                 "x": {"value": -395},
