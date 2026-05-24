@@ -2161,7 +2161,7 @@ def authSetup():
                             if args.cmdAuthSetupNonInteractive and username and args.authPasswordHtpasswd:
                                 f.write(f'{username}:{args.authPasswordHtpasswd}')
                             for line in htpasswdLines:
-                                # if the admininstrator username has changed, remove the previous administrator username from htpasswd
+                                # if the administrator username has changed, remove the previous administrator username from htpasswd
                                 if (
                                     (usernamePrevious is not None)
                                     and (usernamePrevious != username)
