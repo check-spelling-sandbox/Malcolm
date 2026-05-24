@@ -151,7 +151,7 @@
       "update": "[0, width]" // width is automatically defined based on autosize at top of scheme
     },
     {
-    // Sets the custom range range (y-axis) that is informed by autosize
+    // Sets the custom range (y-axis) that is informed by autosize
       "name": "yrange",
       "update": "[height, 0]" // height is automatically defined based on autosize at top of scheme
     },
