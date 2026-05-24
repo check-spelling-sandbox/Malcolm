@@ -892,7 +892,7 @@ While there is no comprehensive list of possible values for [these filters](http
     <li>Uses Pastebin as part of C2</li>
     <li>Uses pCloud as part of C2</li>
     <li>Uses QuickLZ decompression</li>
-    <li>Uses RedHat OpenShift as part of C2</li>
+    <li>Uses Red Hat OpenShift as part of C2</li>
     <li>Uses Slack as a part of C2</li>
     <li>Uses Stack Overflow as part of C2</li>
     <li>Uses Statcounter for C2</li>
