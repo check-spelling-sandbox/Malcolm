@@ -85,7 +85,7 @@ Although the configuration script automates many of the following configuration 
         + [`KC_HTTP_RELATIVE_PATH`](https://www.keycloak.org/server/all-config#category-http) - specifies the Malcolm path under which Keycloak serves resources (should not be changed from its default value of `/keycloak`)
         + [`KC_METRICS_ENABLED`](https://www.keycloak.org/server/all-config#category-metrics) - specifies if the server should expose metrics (default `false`)
         + [`KC_PROXY_HEADERS`](https://www.keycloak.org/server/all-config#category-proxy) - the proxy headers that should be accepted by Keycloak (should not be changed from its default value of `xforwarded`)
-        + `KC_BOOTSTRAP_ADMIN_USERNAME` and `KC_BOOTSTRAP_ADMIN_PASSWORD` - values for boostrapping the temporary Keycloak admin service account (see [Keycloak configuration](authsetup.md#AuthKeycloakEmbedded))
+        + `KC_BOOTSTRAP_ADMIN_USERNAME` and `KC_BOOTSTRAP_ADMIN_PASSWORD` - values for bootstrapping the temporary Keycloak admin service account (see [Keycloak configuration](authsetup.md#AuthKeycloakEmbedded))
 * **`logstash.env`** - settings specific to [Logstash](https://www.elastic.co/products/logstash)
     - `LOGSTASH_OUI_LOOKUP` – if set to `true`, Logstash will map MAC addresses to vendors for all source and destination MAC addresses when analyzing Zeek logs (default `true`)
     - `LOGSTASH_REVERSE_DNS` – if set to `true`, Logstash will perform a reverse DNS lookup for all external source and destination IP address values when analyzing Zeek logs (default `false`)
