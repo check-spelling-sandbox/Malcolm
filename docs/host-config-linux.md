@@ -75,7 +75,7 @@ blockdev --setra 512 /dev/sda
 
 * If you are planning on using very large data sets, consider formatting the drive containing the `opensearch` volume as XFS.
 
-After making allthese changes, do a reboot for good measure!
+After making all these changes, do a reboot for good measure!
 
 ## Docker
 
