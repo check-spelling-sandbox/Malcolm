@@ -15,7 +15,7 @@ The Malcolm aggregator base operating system uses the [harbian-audit](https://gi
 
 The Malcolm aggregator base operating system claims exceptions from the recommendations in this benchmark in the following categories:
 
-**1.1 Install Updates, Patches and Additional Security Software** - When the the Malcolm aggregator appliance software is built, all the latest applicable security patches and updates are included. How future updates are to be handled is still under design.
+**1.1 Install Updates, Patches and Additional Security Software** - When the Malcolm aggregator appliance software is built, all the latest applicable security patches and updates are included. How future updates are to be handled is still under design.
 
 **1.3 Enable verify the signature of local packages** - As the base distribution is not using embedded signatures, `debsig-verify` would reject all packages (see comment in `/etc/dpkg/dpkg.cfg`). Enabling embedded signatures after installation would disallow any future updates.
 
