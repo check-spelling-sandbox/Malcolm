@@ -134,7 +134,7 @@ Clicking the **Create a packet search job** on the Hunt page will allow users to
 
 * a packet search job **name**
 * a **maximum number of packets** to examine per session
-* the **search string** and its format (*ascii*, *ascii (case sensitive)*, *hex*, *regex*, or *hex regex*)
+* the **search string** and its format (*ascii*, *ascii (case-sensitive)*, *hex*, *regex*, or *hex regex*)
 * whether to search **source packets**, **destination packets**, or both
 * whether to search **raw** or **reassembled** packets
 
