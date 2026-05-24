@@ -386,7 +386,7 @@ def main():
                         predicate=IsRecordNode,
                     ):
                         # determine the name of the record node
-                        # this isn't *exactly* going to match the acutal filename
+                        # this isn't *exactly* going to match the actual filename
                         # of the .log file, but it'll be close enough for a good start
                         typeName = None
                         try:
