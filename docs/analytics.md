@@ -91,7 +91,7 @@ If an IP address does not exist in the data being examined, a message will appea
 
 This message can also appear due to object number limitations. Vega and Opensearch limit loading ten thousand object into the Vega table. If the IP address for certain exists elsewhere and cannot be found in Trees, consider limiting the time range further or utilize Malcolm's filters and reload the analytic.
 
-If the IP addess was initially loaded into the Vega table but not all of its connections/connection IP addresses were loaded an error bar will appear at the top of the analytic, stating "_Maximum data response reached. Data my be truncated. Try adjusting timeframe_".
+If the IP address was initially loaded into the Vega table but not all of its connections/connection IP addresses were loaded an error bar will appear at the top of the analytic, stating "_Maximum data response reached. Data my be truncated. Try adjusting timeframe_".
 
 If you encounter a bug, please submit a bug report or an issue to the Malcolm repository.
 
