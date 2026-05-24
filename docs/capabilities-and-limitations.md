@@ -59,7 +59,7 @@ In short, Malcolm provides an easily deployable traffic analysis tool suite for 
 * Storage
     - The initial artifacts associated with network traffic capture (PCAP files, raw Zeek and Suricata logs, extracted files, etc.) are stored at the point of capture, whether that be on a standalone Malcolm instance or on sensors running Hedgehog Linux. Indices for the OpenSearch or Elasticsearch data store are managed locally by the Malcolm aggregator, or [remote data store clusters](opensearch-instances.md#OpenSearchInstance) can be used. Solid state storage or RAID configurations are usually required to keep up with streaming full PCAP to disk. For long-running deployments, Malcolm can be [configured to](malcolm-config.md#DiskUsage) prune old indices and artifacts to make room for new data.
     - Limitation: Malcolm does not currently provide a mechanism for configuring automatic backups or rollover of network traffic artifacts to offline or network-attached storage.
-* Extensiblity
+* Extensibility
     - Malcolm provides its own set of [REST APIs](api.md#API) to allow other platforms to interface directly with its data or to access the APIs of its underlying components (e.g., OpenSearch or Elasticsearch, Logstash, NetBox).
     - [Custom rules, scripts, and plugins](custom-rules.md#CustomRulesAndScripts) can easily be dropped-in for several of Malcolm's components:
         + Zeek scripts and plugins
