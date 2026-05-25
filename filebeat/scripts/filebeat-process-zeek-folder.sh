@@ -9,7 +9,7 @@
 #     Windows event log .evtx files which may be compressed and we don't know what's inside
 #     the archives prior to this)
 #   - are not in use (fuser -s)
-# 1. move file to processed/ (preserving original subdirectory heirarchy, if any)
+# 1. move file to processed/ (preserving original subdirectory hierarchy, if any)
 # 2. calculate tags based on splitting the file path and filename (splitting on
 #    on ",-/_.")
 
