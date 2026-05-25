@@ -309,7 +309,7 @@ For some settings, additional sub-items will become available when that setting 
 │   ├── 45. File Extraction Mode (current: none)
 │   └── 46. Use Threat Feeds for Zeek Intelligence (current: Yes)
 …
-nter item number or action: 45
+Enter item number or action: 45
 File Extraction Mode (current: none)
 1: none
 2: known
