@@ -399,12 +399,12 @@
       "name": "rootIndex",
       "update": "indexof(pluck(data('table'), 'src'), userInputRoot) "
     },
-    // Pulls the src information based on the rootIndex and stores it as intitialRoot
+    // Pulls the src information based on the rootIndex and stores it as initialRoot
     {
       "name": "initialRoot",
       "update": "pluck(data('table'), 'src')[rootIndex]",
     },
-    // pulls enrichment data for the intialRoot based on rootIndex
+    // pulls enrichment data for the initialRoot based on rootIndex
     {
       "name": "initialRootData",
       "update": "pluck(data('table'), 'aggregated_objs')[rootIndex]",
