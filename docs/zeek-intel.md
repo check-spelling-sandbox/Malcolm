@@ -713,7 +713,7 @@ While there is no comprehensive list of possible values for [these filters](http
     <li>Overwriting capabilities</li>
     <li>Password Cracks</li>
     <li>Password Sprays</li>
-    <li>Performs anti-disassembly obfucscation</li>
+    <li>Performs anti-disassembly obfuscation</li>
     <li>Performs CD-ROM operations</li>
     <li>Performs GUI operations</li>
     <li>Performs keyboard operations</li>
