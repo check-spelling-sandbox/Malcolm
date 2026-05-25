@@ -406,7 +406,7 @@ While there is no comprehensive list of possible values for [these filters](http
     <li>Collect video files</li>
     <li>Command and Control via the MQTT Pub/Sub Protocol Capability</li>
     <li>Command line capabilities</li>
-    <li>Communciates using SSH</li>
+    <li>Communicates using SSH</li>
     <li>Communicates bidirectionally with a web service</li>
     <li>Communicates using a binary protocol</li>
     <li>Communicates using a dead drop resolver</li>
