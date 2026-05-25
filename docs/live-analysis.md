@@ -137,7 +137,7 @@ Upon starting, Malcolm's [`suricata_config_populate.py`]({{ site.github.reposito
 
 The following environment variables related to tuning Suricata for live packet capture may be of particular interest, but this list is by no means exhaustive:
 
-- `SURICATA_AF_PACKET_IFACE_THREADS` - the number of threads used to read packets via the AF_Packet interface (default `2`); a vaule of `auto` means to use the same number of threads as CPU cores
+- `SURICATA_AF_PACKET_IFACE_THREADS` - the number of threads used to read packets via the AF_Packet interface (default `2`); a value of `auto` means to use the same number of threads as CPU cores
 - [`SURICATA_MAX_PENDING_PACKETS`](https://docs.suricata.io/en/latest/performance/tuning-considerations.html#max-pending-packets-number) - the number simultaneous packets that the engine can handle; "setting this higher generally keeps the threads more busy, but setting it too high will lead to degradation" (default `10000`)
 - [`SURICATA_AF_PACKET_RING_SIZE`](https://docs.suricata.io/en/latest/performance/tuning-considerations.html#ring-size) - the buffer size (in packets) per-thread; if this is set to `0` (the default), it will be "computed with respect to `max_pending_packets` and the number of threads"
 
