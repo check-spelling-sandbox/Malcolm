@@ -1003,7 +1003,7 @@
                 "find_device_response_flags_ieee_802_15_4_dsss_o_qpsk_modulation": {
                   "type": "keyword"
                 },
-                "find_device_response_flags_mutli_sensor_field_device": {
+                "find_device_response_flags_multi_sensor_field_device": {
                   "type": "keyword"
                 },
                 "find_device_response_flags_protocol_bridge_device": {

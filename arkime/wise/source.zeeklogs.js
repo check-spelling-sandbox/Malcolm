@@ -1224,7 +1224,7 @@ class MalcolmSource extends WISESource {
       "zeek.hart_ip_common_commands.find_device_response_flags_c8_psk_in_multi_drop_only",
       "zeek.hart_ip_common_commands.find_device_response_flags_eeprom_control",
       "zeek.hart_ip_common_commands.find_device_response_flags_ieee_802_15_4_dsss_o_qpsk_modulation",
-      "zeek.hart_ip_common_commands.find_device_response_flags_mutli_sensor_field_device",
+      "zeek.hart_ip_common_commands.find_device_response_flags_multi_sensor_field_device",
       "zeek.hart_ip_common_commands.find_device_response_flags_protocol_bridge_device",
       "zeek.hart_ip_common_commands.find_device_response_flags_safehart_capable_field_device",
       "zeek.hart_ip_common_commands.find_device_response_flags_undefined_5",
