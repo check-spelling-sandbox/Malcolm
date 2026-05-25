@@ -3679,7 +3679,7 @@ def main():
         checkEnvFilesAndValues()
         checkWiseFile()
 
-        # stop Malcolm (and wipe data if requestsed)
+        # stop Malcolm (and wipe data if requested)
         if args.cmdRestart or args.cmdStop or args.cmdWipe:
             stop(wipe=args.cmdWipe)
 
