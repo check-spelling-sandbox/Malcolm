@@ -323,7 +323,7 @@ def main():
     recordsPathMap = {}
 
     # Parse all of the .zeek scripts TWICE: once to find the mapping of record names to .log paths,
-    # and a second time to get the fields for those recoreds. Yeah, it's inefficient, but this
+    # and a second time to get the fields for those records. Yeah, it's inefficient, but this
     # is something you do once in a blue moon so I don't care.
     for parseLoop in (0, 1):
         for val in args.input if args.input else ():
