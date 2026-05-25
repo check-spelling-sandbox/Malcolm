@@ -686,7 +686,7 @@ Note Malcolm's IP address (`192.168.122.5` in the screenshot above) and the sing
 
 ![SSL Certificate Transfer, Hedgehog Side - 03](./images/screenshots/ssl-cert-transfer-05.png)
 
-After a few seconds a progress bar will update and show the files have been 100% transfered. They are automatically saved into the `~/Malcolm/filebeat/certs` directory on the sensor.
+After a few seconds a progress bar will update and show the files have been 100% transferred. They are automatically saved into the `~/Malcolm/filebeat/certs` directory on the sensor.
 
 ![SSL Certificate Transfer, Hedgehog Side - 03](./images/screenshots/ssl-cert-transfer-07.png)
 
