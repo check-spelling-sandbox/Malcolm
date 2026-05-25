@@ -663,7 +663,7 @@ def keystore_op(service, dropPriv=False, *keystore_args, **run_process_kwargs):
                     ]
 
                 else:
-                    # Malcolm isn't running, do 'docker run' to spin up a temporary container to run the ocmmand
+                    # Malcolm isn't running, do 'docker run' to spin up a temporary container to run the command
 
                     # "grep" the docker image out of the service's image: value from the docker-compose YML file
                     serviceImage = None
