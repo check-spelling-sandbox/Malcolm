@@ -479,7 +479,7 @@ While there is no comprehensive list of possible values for [these filters](http
     <li>Create a socket</li>
     <li>Create directories</li>
     <li>Create files</li>
-    <li>Create or drop a polymorhpic file</li>
+    <li>Create or drop a polymorphic file</li>
     <li>Creates HTTP Server</li>
     <li>Creates processes</li>
     <li>Creates processes in suspended state</li>
