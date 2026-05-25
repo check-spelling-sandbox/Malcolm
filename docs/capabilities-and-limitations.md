@@ -23,7 +23,7 @@ In short, Malcolm provides an easily deployable traffic analysis tool suite for 
         + Suricata - a signature-based IDS and threat detection engine
         + netsniff-ng or tcpdump - for simpler capture-only deployments where initial traffic parsing and metadata forwarding are not required
     - Previously-captured PCAP files and Zeek logs can also be [uploaded](upload.md#Upload) via a web browser-based form.
-    - Limitation: Malcolm captures traffic at the Ethernet link layer: its focus is primarily IP network traffic, although there are a few protocol parsers that operate directly at the network internface layer. Malcolm does not have built-in support for capture and dissection of serial-only protocols.
+    - Limitation: Malcolm captures traffic at the Ethernet link layer: its focus is primarily IP network traffic, although there are a few protocol parsers that operate directly at the network interface layer. Malcolm does not have built-in support for capture and dissection of serial-only protocols.
     - Limitation: Malcolm does not have the capability to decrypt encrypted traffic. If that is a requirement, other solutions must be deployed to decrypt TLS & SSL communications prior to handing it off to Malcolm for analysis.
 * Data Analytics
     - Malcolm's data analytics capabilities are provided at several layers of its stack:
