@@ -1327,7 +1327,7 @@ def dashboard_export(dashid):
                 # ... or just return it as-is
                 responseText = response.text
 
-            # remove index pattern definition from exported dashboard as they get created programatically
+            # remove index pattern definition from exported dashboard as they get created programmatically
             #   on Malcolm startup and we don't want them to come in with imported dashboards
             if responseParsed := malcolm_utils.LoadStrIfJson(responseText):
                 if 'objects' in responseParsed and isinstance(responseParsed['objects'], list):

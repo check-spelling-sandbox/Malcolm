@@ -254,7 +254,7 @@ Additional Configuration Options:
 
 Once Malcolm is configured correctly, the `--export-malcolm-config-file` option can be used to export the configuration to a file that can be used with `--import-malcolm-config-file` to restore it later or transfer it to another Malcolm instance for import.
 
-To modify Malcolm settings programatically in scripting, a tool like [`jq`](https://jqlang.org/) can be used with `--export-malcolm-config-file` and `--import-malcolm-config-file`, as illustrated here:
+To modify Malcolm settings programmatically in scripting, a tool like [`jq`](https://jqlang.org/) can be used with `--export-malcolm-config-file` and `--import-malcolm-config-file`, as illustrated here:
 ```bash
 # export the current configuration to a JSON file without modifying anything in ./config/
 SETTINGS_FILE="$(mktemp --suffix=.json)"
