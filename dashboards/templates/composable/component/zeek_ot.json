@@ -2076,7 +2076,7 @@
                 "read_additional_device_status_contents_standardized_status3_radio_failure": {
                   "type": "keyword"
                 },
-                "read_additional_device_status_contents_standardized_status3_resereved": {
+                "read_additional_device_status_contents_standardized_status3_reserved": {
                   "type": "keyword"
                 },
                 "read_additional_device_status_contents_standardized_status3_undefined_bits": {
