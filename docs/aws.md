@@ -190,7 +190,7 @@ $ aws ec2 describe-images \
     - Replace `INSTANCE_TYPE` with the desired instance type in the following command
         + See [EC2 Instance Types](#AWSInstanceSizing) for suggestions
     - Replace `AMI_ID` with the AMI ID from the previous step in the following command
-    - Users who skipped the `create-key-pair` step above shoult omit the `--key-name malcolm-key` argument in the following command
+    - Users who skipped the `create-key-pair` step above should omit the `--key-name malcolm-key` argument in the following command
     - The size of the storage volume will vary depending on the amount of data users plan to process and retain in Malcolm. The example here uses 100 GiB; users should adjust as needed for their specific use case.
 
 ```bash
