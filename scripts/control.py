@@ -2307,7 +2307,7 @@ def authSetup():
                                     defaultBehavior=defaultBehavior,
                                 )
 
-                                # test the connection if we're intereractive
+                                # test the connection if we're interactive
                                 if (
                                     not args.cmdAuthSetupNonInteractive
                                     and (
