@@ -620,7 +620,7 @@ The sections above for [**Configuring Malcolm**](#MalcolmConfig) and the [**Malc
     * **Primary Document Store**
         * The [document store type](opensearch-instances.md#OpenSearchInstance) (either `opensearch-remote` or `elasticsearch-remote`) of the Malcolm aggregator
     * **Remote Malcolm Hostname or IP**
-        * Specifying the IP address or hostname of the Malcolm aggregator here will automatically populate the following items (or, they can be set or overriden individually):
+        * Specifying the IP address or hostname of the Malcolm aggregator here will automatically populate the following items (or, they can be set or overridden individually):
             * **Primary OpenSearch/Elasticsearch URL**
                 * The URL of the remote OpenSearch/Elasticsearch instance to be used as the data store (e.g., `https://malcolm.example.org:9200` or `https://service.whatever.org/elasticsearch/`)
             * **Logstash Host**
