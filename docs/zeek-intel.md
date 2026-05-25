@@ -483,7 +483,7 @@ While there is no comprehensive list of possible values for [these filters](http
     <li>Creates HTTP Server</li>
     <li>Creates processes</li>
     <li>Creates processes in suspended state</li>
-    <li>Creates shorcut</li>
+    <li>Creates shortcut</li>
     <li>Creates user accounts</li>
     <li>Creates Windows registry keys or values</li>
     <li>Create TCP socket</li>
