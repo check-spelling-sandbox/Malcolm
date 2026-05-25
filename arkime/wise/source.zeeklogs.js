@@ -1475,7 +1475,7 @@ class MalcolmSource extends WISESource {
       "zeek.hart_ip_session_record.session_log_record_session_status_summary_insecure_session",
       "zeek.hart_ip_session_record.session_log_record_session_status_summary_session_timeout",
       "zeek.hart_ip_session_record.session_log_record_session_status_summary_undefined_bits",
-      "zeek.hart_ip_session_record.session_log_record_session_status_summary_writes_occured",
+      "zeek.hart_ip_session_record.session_log_record_session_status_summary_writes_occurred",
       "zeek.hart_ip_session_record.session_log_record_start_configuration_change_count",
       "zeek.hart_ip_universal_commands.read_additional_device_status_contents_analog_channel_analog_channel",
       "zeek.hart_ip_universal_commands.read_additional_device_status_contents_analog_channel_saturated_quaternary_analog",

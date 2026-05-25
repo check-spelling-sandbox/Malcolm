@@ -1943,7 +1943,7 @@
                 "session_log_record_session_status_summary_undefined_bits": {
                   "type": "long"
                 },
-                "session_log_record_session_status_summary_writes_occured": {
+                "session_log_record_session_status_summary_writes_occurred": {
                   "type": "keyword"
                 },
                 "session_log_record_start_configuration_change_count": {
