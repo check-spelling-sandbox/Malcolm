@@ -13,7 +13,7 @@ require 'uri'
 require 'stringex_lite'
 
 ##############################################################################################
-# Despite the warning against globla variables, we are using them here in order to make sure that
+# Despite the warning against global variables, we are using them here in order to make sure that
 #   we don't have duplicate caches for things cross different clones of the filter,
 #   which is what happens if you just use @instance_variables. However, we should
 #   be safe because 1) we are using Concurrent::Map to maintain these per-type caches, and
