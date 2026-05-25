@@ -1603,7 +1603,7 @@ def netbox_lookup(
         # update with new information on an existing device (i.e., from a previous call to netbox_lookup)
         _patched_device_data = Hash.new
 
-        # get existing tags to update them to remove "unkown-..." values if needed
+        # get existing tags to update them to remove "unknown-..." values if needed
         _tags = previous_result.fetch(:tags, nil)&.flatten&.map{ |hash| { slug: hash[:slug] } }&.uniq
 
         # API endpoints are different for VM vs real device
