@@ -485,7 +485,7 @@ While there is no comprehensive list of possible values for [these filters](http
     <li>Creates processes in suspended state</li>
     <li>Creates shorcut</li>
     <li>Creates user accounts</li>
-    <li>Creates Windows regisry keys or values</li>
+    <li>Creates Windows registry keys or values</li>
     <li>Create TCP socket</li>
     <li>Create thread</li>
     <li>Create UDP socket</li>
